@@ -4,7 +4,7 @@ from get_emoji import *
 
 #heade
 st.header('Conversation Builder')
-st.text('Create conversations between your favorite characters and celebrities. Your imagination is the limit!')
+st.text('Create conversations between your favorite characters and celebrities. Fights, arguements discussions, its all possible. Your imagination is the limit!')
 
 #colums
 col1, col2, col3 = st.columns(3)
