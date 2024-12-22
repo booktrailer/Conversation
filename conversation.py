@@ -2,7 +2,7 @@ import google.generativeai as genai
 
 #generate the conversation and print it
 def generateConversation(person_A, person_B, topic):
-    genai.configure(api_key="AIzaSyBSbWQAVWyXYZmM3yJhfVjAxBXsFxu533E")
+    genai.configure(api_key="API KEY")
     model = genai.GenerativeModel("gemini-1.5-flash")
 
     
